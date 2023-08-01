@@ -1,0 +1,105 @@
+body {
+  background-color: #a6d0dd;
+}
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #ff6969;
+  font-size: 45px;
+}
+section {
+  position: relative;
+  padding: 16px;
+  width: 90%;
+}
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  position: relative;
+  clear: right;
+}
+div {
+  position: relative;
+  background-color: #fff9de;
+  border: 4px solid black;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.menu1 {
+  float: right;
+  width: 100px;
+  padding: 5px;
+  margin: -3px -3px 0px;
+  border: 4px solid black;
+  text-align: center;
+  font-size: 110%;
+  font-weight: bold;
+  background-color: #ff6969;
+}
+.menu2 {
+  float: right;
+  width: 100px;
+  padding: 5px;
+  margin: -3px -3px 0px;
+  border: 4px solid black;
+  text-align: center;
+  font-size: 110%;
+  font-weight: bold;
+  background-color: #ccaa62;
+}
+.menu3 {
+  float: right;
+  width: 100px;
+  padding: 5px;
+  margin: -3px -3px 0px;
+  border: 4px solid black;
+  text-align: center;
+  font-size: 110%;
+  font-weight: bold;
+  background-color: #52beb9;
+}
+.main {
+  padding: 7px;
+  border: none;
+  background-color: #fff9de;
+  color: black;
+  margin: 3%;
+  height: 150px;
+  overflow: auto;
+}
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col-md-12 {
+    float: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*mobile version*/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
